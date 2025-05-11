@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* Back Ground Video Section */
+*{
+  padding: 0;
+  margin: 0;
+}
+  .HeroSection {
+            position: relative;
+            height: 100vh;
+            min-height: 400px;
+            overflow: hidden;
+}
+
+.video-background {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+}
+.navbar {
+            transition: all 0.3s ease;
+}
+        
+.Nav_link_class_2{
+            font-weight: 700;
+            color: white;
+ }
+ .Nav_link_class_2:hover{
+            color: aqua;
+            transform: rotate3d();
+ }
+.hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 0;
+}
+.navbar.scrolled {
+  background-color: #12373C !important; /* Replace with your desired color */
+  transition: background-color 300ms ease-in-out;
+}
+        
+.hero-content {
+            position: relative;
+            z-index: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+ }
+.Courseal_class{
+            font-size: 100px;
+            font-weight: 1000;
+            color: aqua;
+ }
+ /* Section No.02  */
+ .Section_2{
+            background-color:#12373C;
+  /* position: absolute; */
+ }
+.class_Section_H1{
+            color: aqua;
+            font-weight: 900;
+            font-size: 30px;
+            margin: 30px 0 0 0;
+}
+
+.Class_OUR_CLIENT h1{
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 66px;
+            color: white;  
+}
+.Class_OUR_CLIENT span{
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 66px;
+            color: aqua;  
+}
+.Class_OUR_CLIENT p{
+            justify-content: flex-start;
+            font-weight: 500;
+            line-height: 35px;
+            font-size: 25px;
+            color: white;
+}
+.Class_OUR_CLIENT_IMG img{
+            width: 80%;
+            height: 80%;
+}
+.Class_OUR_CLIENT_IMG img:hover{
+            width: 85%;
+            height: 85%;
+            transform: scale(1.2, 1.2);
+            /* transform: rotate(180deg); */
+}
+.section_OUR_PROCESS{
+          background-image: url("../assests/Section_OUR_Process_Background.jpg");
+          background-position:  relative;
+          background-repeat: no-repeat;
+          /* background-size: cover; */
+          object-fit: cover;
+          top: 50%;
+          left: 50%;
+          width: 100%;
+          height: auto;
+}
+.section_OUR_PROCESS h1{
+  font-size: 70px;
+  line-height: 91px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.OUR_PROCESS_CARD{
+  justify-items: stretch; 
+  background-color: black;
+  display: flex;
+}
+/* Card of Our Process */
+.Section_Our_Process_Card{
+ backdrop-filter: blur(2px);
+}
+.Section_Our_Process_Card h1{
+  line-height: 195px;
+  font-weight: 600px;
+  font-size: 150px;
+  color: white;
+ 
+}
+.OUR_PROCESS_MAIN {
+  background-color: #12373C;
+  /* border-radius: 35px; */
+}
+.OUR_SUCESS_CARD_2 h5{
+  line-height: 39px;
+  font-weight: 600px;
+  font-size: 39px;
+  color: white;
+  text-align: justify;
+  /* justify-content: flex-start; */
+  
+
+}
+.OUR_SUCESS_CARD_2 p{
+  line-height: 26px;
+  font-weight: 400px;
+  font-size: 16px;
+  color: white;
+  text-align: justify;
+
+}
+.OUR_SUCESS_CARD_3 img{
+  line-height: 69px;
+  font-weight: 400px;
+  font-size: 69px;
+  color: aqua;
+  justify-items: center;
+  background-color: #12373C;
+}
+.OUR_SUCESS_CARD_3 i{
+  line-height: 69px;
+  font-weight: 400px;
+  font-size: 69px;
+  color: aqua;
+  justify-items: center;
+  background-color: #12373C;
+}
+/* Section Our Process */
+
+.OUR_SERVICES{
+          background-color: #12373C;
+          background-position:  relative;
+          width: 100%;
+          height: 100%;
+
+}
+.OUR_SERVICES_CARD{
+  background: transparent;
+  background-image:linear-gradient(126deg, #1CAECC 0%, #0B4E90 31%);
+  width: 100%;
+  height: 150px;
+  padding: 12px 12px 12px 12px;
+  margin-bottom: 15px;
+}
+.card_heading h4{
+  line-height: 25px;
+  font-size: 33px;
+  font-weight: 900;
+  color: white;
+}
+/* OUR SERVICES */
+.class_IMG{
+  padding-top: 25px;
+  padding-right: 0;
+}
+.class_Second_Colum h1{
+  padding-top: 25px;
+  /* line-height: 99px; */
+  size: 60px;
+  color: white;
+  font-weight: 700;
+}
+.class_Second_Colum span{
+  color: #1CAECC;
+  size: 20px;
+  font-weight: 500;
+}
+.WEB_DEV_GRID h1{
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 65px;
+}
+.WEB_DEV_GRID h5{
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+}
+.btn_Class_SERVICES{
+  /* border: #1CAECC; */
+  color: white;
+  font-weight: 400;
+  box-shadow: 25px;
+  border: 2px solid #00D4FF;
+  width: 12rem;
+  border-radius: 10px;
+  /* border-box: 5px; */
+}
+.btn_Class_SERVICES:hover{
+    border: 2px solid #00D4FF;
+    color: white;
+    font-weight: 600;
+    box-shadow: 35px;
+     transform: scale(1.1);
+}
+.class_Img_OUR_SERVISES img{
+  width: 75%; 
+  height: 75%; 
+  border-radius: 15px solid black;
+}
+.class_Img_OUR_SERVISES img:hover{
+   transform: scale(1.1);
+}
+#CLASS_MD_MEDIA{
+  display: none;
+}
+.card_Style_USE_CASE{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  box-shadow: 25px;
+  border: 2px solid #00D4FF;
+  width: 15rem;
+  height: 200px;
+  background: transparent;
+  border-radius: 15px;
+}
+.card_Style_USE_CASE:hover{
+  border: 2px solid #00D4FF;
+  width: 15rem;
+  background: transparent;
+   transform: scale(1.1);
+}
+.card_Style_USE_CASE_IMG{
+  width: 50%;
+  height: 50%;
+  padding: auto;
+}
+/* Form Section */
+.form_section{
+          background-image: url("../assests/Form_Back.jpg");
+          background-position:  relative;
+          background-repeat: no-repeat;
+          /* background-size: cover; */
+          object-fit: cover;
+          top: 50%;
+          left: 50%;
+          width: 100%;
+          height: auto;
+}
+.FORM_CONTAINER h1{
+  padding-top: 8rem;
+  color: white;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 60px;
+
+}
+.FORM_INPUT{
+  border-radius: 12px;
+  background: transparent;
+  border-color: #00D4FF;
+  border-width: 3px;
+  /* color: white; */
+  /* border-width: 5px solid #00D4FF; */
+}
+.FORM_INPUT:hover{
+  border-radius: 12px;
+  background: transparent;
+  border-color: #00D4FF;
+  border-width: 3px;
+  color: white;
+  /* border-width: 5px solid #00D4FF; */
+}
+.FORM_CONTROL input::placeholder{
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 20px;
+  opacity: 6;
+}
+/* Form Section Ends */
+/* For Button  */
+.btn_Class_FORMS{
+  /* border: #1CAECC; */
+  color: black;
+  font-weight: 600;
+  box-shadow: 25px;
+  border: 2px solid #00D4FF;
+  width: 12rem;
+  border-radius: 10px;
+  background-color: #00D4FF;
+  /* border-box: 5px; */
+}
+.btn_Class_FORMS:hover{
+    border: 2px solid #00D4FF;
+    color: black;
+    background-color: #00D4FF;
+    font-weight: 400;
+    box-shadow: 35px;
+     transform: scale(1.1);
+}
+.bTN_CLASS{
+  margin-bottom: 5rem;
+}
+/* Footer */
+.FOOTER_ONE img{
+  width: 150px;
+  height: auto;
+
+}
+.FOOTER_ONE h3{
+  margin-top: 2rem;
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 33px;
+
+}
+.FOOTER_ONE h4{
+  margin-top: 3rem;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 35px;
+
+}
+.FOOTER_ONE p{
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+
+}
+.FOOTER_2 h2{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  color: #00D4FF;
+}
+.FOOTER_2 li{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 5px 5px 5px 5px;
+}
+
+/*  */
+/* Media Query */
+  @media only screen and (max-width: 768px) {
+    .section_OUR_PROCESS{
+          background-image: url("../assests/Section_OUR_Process_Background.jpg");
+          background-position:  relative;
+          background-repeat: no-repeat;
+          /* background-size: cover; */
+          object-fit: cover;
+          top: 50%;
+          left: 50%;
+          width: 100%;
+          height: auto;
+}
+  .section_OUR_PROCESS h1 {
+  font-size: 40px;
+  /* line-height: 91px; */
+  color: whitesmoke;
+  /* font-weight: 600; */
+  }
+
+.OUR_PROCESS_MAIN {
+  background-color: #12373C;
+  /* border-radius: 35px; */
+}
+.OUR_SUCESS_CARD_2 h5{
+  /* line-height: 39px; */
+  font-weight: 400px;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  /* justify-content: flex-start; */
+  
+}
+.OUR_SUCESS_CARD_2 p{
+  /* line-height: 26px; */
+  font-weight: 400px;
+  font-size: 16px;
+  color: white;
+  text-align: justify;
+
+}
+.OUR_SUCESS_CARD_3 img{
+  /* line-height: 69px; */
+  font-weight: 400px;
+  font-size: 69px;
+  color: aqua;
+  justify-items: center;
+  background-color: #12373C;
+}
+/* Our Process */
+.OUR_SERVICES_CARD{
+  background: transparent;
+  background-image:linear-gradient(126deg, #1CAECC 0%, #0B4E90 31%);
+  width: 100%;
+  height: 160px;
+  margin-bottom: 50px;
+  /* padding: 12px 12px 12px 12px; */
+}
+.card_heading h4{
+  /* line-height: 25px; */
+  font-size: 13px;
+  font-weight: 900;
+  color: white;
+}
+.WEB_DEV_GRID_2 h1{
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 65px;
+}
+/* .WEB_DEV_GRID_2 p{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+  margin-bottom: 5px;
+} */
+.class_Img_OUR_SERVISES_2 img{
+ margin-top: 10px;
+ width: 80%;
+ height: 80%;
+}
+.class_Img_OUR_SERVISES_2 img:hover{
+   transform: scale(1.1);
+}
+.WEB_DEV_GRID_2 h1{
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 65px;
+}
+.WEB_DEV_GRID_2 h5{
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: justify;
+}
+#CLASS_MD_MEDIA{
+  display: contents;
+}
+#CLASS_LG_MEDIA{
+  display: none;
+}
+/* Use Case Card */
+.card_Style_USE_CASE{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  /* box-shadow: 25px; */
+  border: 2px solid #00D4FF;
+  width: 100%;
+  border-radius: 15px;
+  /* height: 200px; */
+  background: transparent;
+}
+.card_Style_USE_CASE_IMG{
+  width: 50%;
+  height: 50%;
+  padding: auto;
+}
+/* Form Section */
+.form_section{
+          background-image: url("../assests/Form_Back.jpg");
+          background-position:  relative;
+          background-repeat: no-repeat;
+          /* background-size: cover; */
+          object-fit: cover;
+          top: 50%;
+          left: 50%;
+          width: 100%;
+          height: auto;
+          
+}
+/* Footer Section */
+
+}
